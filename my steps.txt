@@ -1,0 +1,23 @@
+touch f1 f2
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/alaaahmeedd/lab2.git
+git branch -M main
+git push origin main
+git branch dev
+git branch test
+git checkout dev
+touch f3 f4
+git add.
+git commit -m "adding files f3 f4"
+git push origin dev
+git checkout test
+git push origin test
+git checkout main
+git merge dev
+git push origin main
+touch readmefile.md
+git add .
+git commit -m "final commit"
+git push origin main
